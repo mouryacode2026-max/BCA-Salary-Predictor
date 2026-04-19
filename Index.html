@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salary Predictor AI</title>
+    <style>
+        body { font-family: sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 350px; }
+        h2 { text-align: center; color: #1a73e8; }
+        label { display: block; margin-top: 15px; font-weight: bold; color: #555; }
+        input { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; }
+        button { width: 100%; background-color: #1a73e8; color: white; padding: 12px; border: none; border-radius: 6px; margin-top: 25px; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #1557b0; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Salary Predictor</h2>
+        <form action="/predict" method="post">
+            <label>Years of Experience</label>
+            <input type="number" name="experience" placeholder="Enter years" required>
+            
+            <label>Your Age</label>
+            <input type="number" name="age" placeholder="Enter age" required>
+            
+            <label>Skill Score (0-1000)</label>
+            <input type="number" name="skillscores" placeholder="Enter score" required>
+            
+            <button type="submit">Predict Salary Now</button>
+        </form>
+    </div>
+</body>
+</html>
