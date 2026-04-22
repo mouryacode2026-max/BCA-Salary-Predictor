@@ -30,8 +30,6 @@ Open your browser and navigate to http://127.0.0.1:8000
 ​Age: 21
 ​Experience: 2 Years
 ​Skill Score: 8 (on a scale 
-#VIDEO OF THE PROJECT
-"C:\Users\Mourya HR\OneDrive\Videos\video- 2026-04-22 173612.mp4"
 
 
 
